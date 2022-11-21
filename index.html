@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Stutern Survey Form</title>
+ <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+ <header>
+  <div class="img-container">
+   <img src="./images/svgexport-1.png"  alt="Stutern logo">
+  </div>
+  <div class="links">
+   <a href="#">Courses</a>
+   <a href="#">For Employers</a>
+   <a href="#">For Talents</a>
+   <a href="#">Research</a>
+   <a href="#">Blog</a>
+  </div>
+  <div>
+   <button class="login" >  Login</button>
+   <button class="course" >Take a Course</button>
+  </div>
+ </header>
+ 
+ <section>
+<!--FORM AREA-->
+<form action="">
+ <div class="form-container">
+ <label for="first-name">First Name:</label>
+ <input type="text" id="first-name" placeholder="Type your first name">
+ </div>
+ <div class="form-container">
+ <label for="last-name">Last Name:</label>
+ <input type="text" id="last-name" placeholder="Type your last name">
+ </div>
+ <div class="form-container">
+ <label for="email">Email:</label>
+ <input type="email" id="email" placeholder="Your email">
+ </div>
+ <div class="form-container">
+ <label for="number">Phone Number:</label>
+ <input type="number" id="phone" placeholder="Your phone number">
+ </div>
+ <div class="form-container">
+ <label for="track">What track do you belong to?</label>
+ <select name="" id="">
+  <option value="frontend">Front End</option>
+  <option value="backend" >Back End</option>
+  <option value="software-testing" label="Software Testing" ></option>
+  <option value="data-science" label="Data Science" ></option>
+ </select>
+ </div>
+ <div class="form-container">
+ <label for="track">Select which best describes you</label>
+ <input type="radio" name="track">Student
+ <input type="radio" name="track">Working Class
+ </div>
+<div class="form-container">
+ <label for="recommend">Would you recommend Stutern to a friend?</label>
+ <input type="radio" name="recommend">Yes
+ <input type="radio" name="recommend">No
+</div>
+<div class="form-container">
+ <label for="tech">What technologies are you now familiar with?</label>
+ <input type="checkbox">Git
+ <input type="checkbox">HTML
+ <input type="checkbox">CSS
+ <input type="checkbox">JavaScript
+ <input type="checkbox">React
+ <input type="checkbox">Python
+ <input type="checkbox">TypeScript
+</div>
+<div class="form-container">
+ <label for="feedback">Any feedback for the Stutern team?</label>
+ <textarea cols="10" rows="5" placeholder="Type your feedback"></textarea>
+</div>
+<div class="form-container">
+ <button>Submit feedback</button>
+</div>
+</form>
+ </section>
+</body>
+</html>
