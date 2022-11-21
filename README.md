@@ -1,1 +1,2 @@
 This repository contains a survey form designed to collect feedback from Stutern learners.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf66da4c-14a3-424f-993d-ee8d6b52143b/deploy-status)](https://app.netlify.com/sites/jayola-survey/deploys)
